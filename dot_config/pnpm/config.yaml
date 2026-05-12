@@ -1,0 +1,8 @@
+# --- dependency source hardening ---
+blockExoticSubdeps: true
+
+# --- trust enforcement ---
+trustPolicy: no-downgrade
+
+# --- release soak time ---
+minimumReleaseAge: 10080 # 7 days in minutes
