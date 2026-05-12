@@ -3,8 +3,9 @@ export XDG_CONFIG_HOME="$HOME/.config"
 export HOMEBREW_NO_ENV_HINTS=1
 export EDITOR="code"
 
-# Load starship
+# Load shell tools
 eval "$(starship init zsh)"
+eval "$(intelli-shell init zsh)"
 
 # Set up fzf key bindings and fuzzy completion
 source <(fzf --zsh)
