@@ -1,0 +1,6 @@
+min-release-age=7
+ignore-scripts=true
+enable-pre-post-scripts=false
+save-exact=true
+audit=true
+fund=false
