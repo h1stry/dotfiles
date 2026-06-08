@@ -1,10 +1,11 @@
 {
-  "defaultProvider": "llama.cpp",
+  "defaultProvider": "llama-server",
   "defaultModel": "google/gemma-4-12B-it-qat-q4_0-gguf:Q4_0",
   "defaultThinkingLevel": "off",
-  "lastChangelogVersion": "0.78.1",
+  "lastChangelogVersion": "0.79.0",
   "packages": [
-    "npm:@zackify/pi-claude-permissions"
+    "npm:@zackify/pi-claude-permissions",
+    "npm:pi-llama-cpp"
   ],
   "piClaudePermissions": {
     "defaultMode": "acceptEdits"
