@@ -1,0 +1,95 @@
+{
+  "version": 3,
+  "skills": {
+    "api-design": {
+      "source": "margelo/react-native-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/margelo/react-native-skills.git",
+      "skillPath": "skills/api-design/SKILL.md",
+      "skillFolderHash": "2066633e2a6943cfdf8c8c3b785bf7eb2c3deab2",
+      "installedAt": "2026-06-13T15:29:36.073Z",
+      "updatedAt": "2026-06-13T15:29:36.073Z"
+    },
+    "nitro-fetch": {
+      "source": "margelo/react-native-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/margelo/react-native-skills.git",
+      "skillPath": "skills/react-native-nitro-fetch/SKILL.md",
+      "skillFolderHash": "83889c549f1e012a6a6d1466ea9315aac3f08f7c",
+      "installedAt": "2026-06-13T15:29:36.073Z",
+      "updatedAt": "2026-06-13T15:29:36.073Z"
+    },
+    "react-native-mmkv": {
+      "source": "margelo/react-native-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/margelo/react-native-skills.git",
+      "skillPath": "skills/react-native-mmkv/SKILL.md",
+      "skillFolderHash": "af070c066bc48e8b0d3e0a60daed649b63e9361a",
+      "installedAt": "2026-06-13T15:29:36.073Z",
+      "updatedAt": "2026-06-13T15:29:36.073Z"
+    },
+    "react-native-vision-camera": {
+      "source": "margelo/react-native-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/margelo/react-native-skills.git",
+      "skillPath": "skills/react-native-vision-camera/SKILL.md",
+      "skillFolderHash": "332696a3efc9b3b6d66212b86f457cfbe3805416",
+      "installedAt": "2026-06-13T15:29:36.073Z",
+      "updatedAt": "2026-06-13T15:29:36.073Z"
+    },
+    "build-nitro-modules": {
+      "source": "margelo/react-native-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/margelo/react-native-skills.git",
+      "skillPath": "skills/build-nitro-modules/SKILL.md",
+      "skillFolderHash": "e86e49a1c729175521aff953d82b60df667fe16b",
+      "installedAt": "2026-06-13T15:29:36.074Z",
+      "updatedAt": "2026-06-13T15:29:36.074Z"
+    },
+    "find-skills": {
+      "source": "vercel-labs/skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/vercel-labs/skills.git",
+      "skillPath": "skills/find-skills/SKILL.md",
+      "skillFolderHash": "3013fdeb8a11b10b1eb795ec3ae8bfca38f7c26d",
+      "installedAt": "2026-06-13T15:29:39.333Z",
+      "updatedAt": "2026-06-13T15:29:39.333Z"
+    },
+    "devcontainer-setup": {
+      "source": "trailofbits/skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/trailofbits/skills.git",
+      "skillPath": "plugins/devcontainer-setup/skills/devcontainer-setup/SKILL.md",
+      "skillFolderHash": "67728c77999fec1be4b327beac877d6efea16d41",
+      "installedAt": "2026-06-13T15:31:46.231Z",
+      "updatedAt": "2026-06-13T15:31:46.231Z"
+    },
+    "devcontainers-best-practices": {
+      "source": "afonsograca/devcontainers-best-practices",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/afonsograca/devcontainers-best-practices.git",
+      "skillPath": "skills/devcontainers-best-practices/SKILL.md",
+      "skillFolderHash": "92475097ce57268bf005f97e2e8ad1a78b65ee06",
+      "installedAt": "2026-06-13T15:32:23.806Z",
+      "updatedAt": "2026-06-13T15:32:23.806Z"
+    }
+  },
+  "dismissed": {
+    "findSkillsPrompt": true
+  },
+  "lastSelectedAgents": [
+    "amp",
+    "antigravity",
+    "antigravity-cli",
+    "cline",
+    "codex",
+    "cursor",
+    "deepagents",
+    "gemini-cli",
+    "github-copilot",
+    "kimi-code-cli",
+    "opencode",
+    "warp",
+    "zed"
+  ]
+}

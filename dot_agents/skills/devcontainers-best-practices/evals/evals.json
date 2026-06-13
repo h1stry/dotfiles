@@ -1,0 +1,99 @@
+{
+  "skill_name": "devcontainers-best-practices",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "Should I use `containerEnv` or `remoteEnv` for my `DATABASE_URL` in devcontainer.json? The URL doesn't change, it's just different per developer.",
+      "expected_output": "Recommends containerEnv for a static value, explains the difference (all processes see containerEnv vs remoteEnv is client-specific/avoids rebuild), cites the Dev Container metadata reference.",
+      "assertions": [
+        {
+          "text": "recommends-containerenv: Response recommends containerEnv for a static DATABASE_URL",
+          "passed": null,
+          "evidence": null
+        },
+        {
+          "text": "explains-all-processes: Explains that containerEnv is visible to all processes in the container (not just the VS Code client)",
+          "passed": null,
+          "evidence": null
+        },
+        {
+          "text": "explains-remoteenv-use-case: Explains that remoteEnv is client-specific and/or avoids rebuilds for dynamic values",
+          "passed": null,
+          "evidence": null
+        },
+        {
+          "text": "cites-reference: Cites the Dev Container metadata reference or containers.dev",
+          "passed": null,
+          "evidence": null
+        }
+      ],
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "I use Podman (rootless) on my Linux laptop and added `--userns=keep-id` and `--security-opt=label=disable` to `runArgs` in devcontainer.json to fix a file permission issue. But now my teammates on Docker Desktop (Mac and Windows) get errors when they try to start the container. How do I make devcontainer.json work for both runtimes?",
+      "expected_output": "Explains that runArgs is applied unconditionally regardless of runtime. Recommends the shim script workaround (a script at dev.containers.dockerPath that adds Podman-specific args only when the command is 'podman run'). Does NOT suggest maintaining two separate devcontainer.json files as the primary solution. Cites the devcontainers community discussion or tools reference.",
+      "assertions": [
+        {
+          "text": "explains-runargs-unconditional: Explains that runArgs is applied regardless of whether the runtime is Docker or Podman (no conditional support in devcontainer.json itself)",
+          "passed": null,
+          "evidence": null
+        },
+        {
+          "text": "recommends-shim-script: Recommends a shim/wrapper script set via dev.containers.dockerPath (or equivalent) that conditionally adds Podman-specific args",
+          "passed": null,
+          "evidence": null
+        },
+        {
+          "text": "does-not-recommend-two-configs-as-primary: Does not present maintaining two separate devcontainer.json files as the recommended solution",
+          "passed": null,
+          "evidence": null
+        },
+        {
+          "text": "cites-source: Cites a source (devcontainers discussion, tools reference, or official docs)",
+          "passed": null,
+          "evidence": null
+        }
+      ],
+      "files": []
+    },
+    {
+      "id": 3,
+      "prompt": "I want to write a custom dev container Feature that installs our internal CLI tool from a private GitHub release. What are the key things I need to get right in `devcontainer-feature.json` and `install.sh`?",
+      "expected_output": "Covers required devcontainer-feature.json fields (id, version), install.sh OS detection, _REMOTE_USER for non-root, idempotency, handling private GitHub releases (auth/token), redundant install paths. Points to feature-starter and authoring guide.",
+      "assertions": [
+        {
+          "text": "devcontainer-feature-json-fields: Covers required devcontainer-feature.json fields (id and version at minimum)",
+          "passed": null,
+          "evidence": null
+        },
+        {
+          "text": "os-detection-in-install-sh: Mentions OS/distro detection in install.sh and exiting with a clear error if the OS is unsupported",
+          "passed": null,
+          "evidence": null
+        },
+        {
+          "text": "remote-user-env-var: Mentions _REMOTE_USER or _REMOTE_USER_HOME for handling non-root container users",
+          "passed": null,
+          "evidence": null
+        },
+        {
+          "text": "idempotency: Mentions designing the Feature to be idempotent (safe to install multiple times with different options)",
+          "passed": null,
+          "evidence": null
+        },
+        {
+          "text": "private-release-auth: Addresses the private GitHub release aspect (e.g. token/auth strategy via options or environment variables)",
+          "passed": null,
+          "evidence": null
+        },
+        {
+          "text": "points-to-authoring-guide: References the feature-starter repo or the containers.dev Feature authoring guide",
+          "passed": null,
+          "evidence": null
+        }
+      ],
+      "files": []
+    }
+  ]
+}
