@@ -1,5 +1,3 @@
-tap "barutsrb/tap"
-tap "sinelaw/fresh"
 brew "biome"
 brew "chezmoi"
 brew "delta"
