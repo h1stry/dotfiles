@@ -4,8 +4,7 @@
   "defaultThinkingLevel": "off",
   "lastChangelogVersion": "0.79.1",
   "packages": [
-    "npm:@zackify/pi-claude-permissions",
-    "npm:pi-llama-cpp"
+    "npm:@zackify/pi-claude-permissions"
   ],
   "piClaudePermissions": {
     "defaultMode": "acceptEdits"
