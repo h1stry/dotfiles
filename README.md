@@ -4,12 +4,12 @@
 
 ### Sync device platforms:
 
-    - macOS
     - Kubuntu
     - CachyOS
+    - macOS
 
-### desktop environmen:
-    - KDE (linux)
+### desktop environment:
+    - KDE Plasma (linux)
     - Default (macOS)
 
 ### Harmonize goal:
