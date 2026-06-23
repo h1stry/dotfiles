@@ -5,14 +5,17 @@
 ### Sync device platforms:
 
     - macOS
-    - Fedora Server & Workstation
-    - Arch Linux
+    - Kubuntu
+    - CachyOS
 
-### Window manager:
-    - OmniWM (mac)
-    - Niri (linux)
+### desktop environmen:
+    - KDE (linux)
+    - Default (macOS)
 
 ### Harmonize goal:
      - Same window management
      - Same keyboard shortcuts
      - Same terminal tools
+     - Same note taking system
+     - Same browser experience
+     - Same ai & vm tools

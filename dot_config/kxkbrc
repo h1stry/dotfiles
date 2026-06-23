@@ -1,0 +1,4 @@
+[Layout]
+Model=apple
+Options=ctrl:swap_lwin_lctl,lv3:caps_switch
+ResetOldOptions=true
