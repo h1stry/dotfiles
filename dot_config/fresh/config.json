@@ -5,7 +5,7 @@
   },
   "theme": "vesper",
   "clipboard": {
-    "use_osc52": true
+    "use_osc52": false
   },
   "languages": {
     "json": {
