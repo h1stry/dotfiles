@@ -4,9 +4,9 @@
 
 ### Sync device platforms:
 
-    - Kubuntu
-    - CachyOS
     - macOS
+    - Ubuntu (kubuntu)
+    - Arch Linux (CachyOS, SteamOS)
 
 ### desktop environment:
     - KDE Plasma (linux)
