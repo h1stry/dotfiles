@@ -1,4 +1,5 @@
 # cd path alias
+alias a="cd $HOME/agent"
 alias d="cd $HOME/.config"
 alias g="cd $HOME/Git"
 alias h="cd $HOME"
