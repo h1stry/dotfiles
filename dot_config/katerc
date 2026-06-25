@@ -1,0 +1,37 @@
+[General]
+Days Meta Infos=30
+PinnedDocuments=
+Quickopen Filter Mode=0
+Quickopen List Mode=true
+Save Meta Infos=true
+Show Full Path in Title=false
+Show Menu Bar=true
+Show Status Bar=true
+Show Tab Bar=true
+Show Url Nav Bar=true
+
+[KTextEditor Renderer]
+Animate Bracket Matching=false
+Auto Color Theme Selection=true
+Color Theme=Breeze Dark
+Line Height Multiplier=1
+Show Indentation Lines=false
+Show Whole Bracket Expression=false
+Text Font=Hack,10,-1,7,400,0,0,0,0,0,0,0,0,0,0,1
+Text Font Features=
+Word Wrap Marker=false
+
+[MainWindow]
+2048x1280 screen: Height=1085
+2048x1280 screen: Width=773
+
+[filetree]
+editShade=183,220,246
+listMode=false
+middleClickToClose=false
+shadingEnabled=true
+showCloseButton=false
+showFullPathOnRoots=false
+showToolbar=true
+sortRole=0
+viewShade=211,190,222
