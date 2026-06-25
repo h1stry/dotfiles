@@ -129,7 +129,7 @@ Window Lower=,,Lower Window
 Window Maximize=Ctrl+Shift+Up\tMeta+PgUp\tCtrl+Shift+Down,Meta+PgUp,Maximize Window
 Window Maximize Horizontal=,,Maximize Window Horizontally
 Window Maximize Vertical=,,Maximize Window Vertically
-Window Minimize=Meta+PgDown,Meta+PgDown,Minimize Window
+Window Minimize=Ctrl+M\tMeta+PgDown,Meta+PgDown,Minimize Window
 Window Move=,,Move Window
 Window Move Center=,,Move Window to the Center
 Window No Border=,,Toggle Window Titlebar and Frame
@@ -269,6 +269,4 @@ toggle do not disturb=,,Toggle do not disturb
 _launch=
 
 [services][org.kde.spectacle.desktop]
-CurrentMonitorScreenShot=
-OpenWithoutScreenshot=
 RectangularRegionScreenShot=Ctrl+$\tMeta+Shift+Print
