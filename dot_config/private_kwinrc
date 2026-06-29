@@ -12,15 +12,19 @@ LayoutMode=1
 [Effect-presentwindows]
 LayoutMode=1
 
-[Tiling]
-padding=4
-
 [Tiling][541d428d-a777-52d7-b952-c247a96ad740]
 tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
 
 [Tiling][e5ae5f20-2c3a-5283-8766-6d6c5b928523]
 tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
 
+[Tiling][ebc51a22-45ca-4aba-9834-e41bfea89741][37e733ea-db07-4ca5-9416-9fdb06e3b8ae]
+padding=4
+tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
+
+[Xwayland]
+Scale=1.5
+
 [org.kde.kdecoration2]
-ButtonsOnLeft=IAX
+ButtonsOnLeft=XIA
 ButtonsOnRight=
