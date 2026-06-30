@@ -1,8 +1,8 @@
-# Delta diff config
+# hunk diff config
 git:
   pagers:
     - colorArg: always
-      pager: delta --dark --paging=never
+      pager: hunk pager
 
 # Key bindings
 customCommands:
