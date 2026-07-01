@@ -12,5 +12,19 @@
       "show_whitespace_tabs": false
     }
   },
-  "active_keybinding_map": "macos-gui"
+  "active_keybinding_map": "macos-gui",
+  "keybindings": [
+     {
+       "key": "q",
+       "modifiers": ["alt"],
+       "action": "quit",
+       "when": "normal"
+     },
+     {
+       "key": "q",
+       "modifiers": ["super"],
+       "action": "noop",
+       "when": "normal"
+     }
+   ]
 }
