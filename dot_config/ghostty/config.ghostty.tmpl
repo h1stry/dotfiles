@@ -6,9 +6,14 @@ background = black
 cursor-style = bar
 cursor-style-blink = true
 
+{{ if eq .chezmoi.os "darwin" -}}
+# Key bindings (mac-specific)
+config-file = keybinds.ghostty.mac
+{{ end }}
+
 {{ if eq .chezmoi.os "linux" -}}
 # Key bindings (linux-specific)
-config-file = keybinds.ghostty
+config-file = keybinds.ghostty.linux
 {{ end }}
 
 # Disable quit confirmation dialog
